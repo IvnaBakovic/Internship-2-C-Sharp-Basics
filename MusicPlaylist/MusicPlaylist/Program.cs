@@ -558,7 +558,6 @@ namespace ConsoleApp4
 
             if (numberFirst < minimum || numberSecond < minimum || numberFirst > maximum || numberSecond > maximum)
             {
-                Console.WriteLine("loš");
                 Console.WriteLine("Broj(evi) ni(je/su) u odgovarajućem intervalu.");
                 DialogResult ans = MessageBox.Show("Do you want to continue it?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (ans == DialogResult.Yes)
